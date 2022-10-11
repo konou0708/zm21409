@@ -1,4 +1,4 @@
-var who65 = 'world';
+var who61 = 'world';
 function sayhello61()
 {alert('Hello, ' + who61 + '!');
 }
