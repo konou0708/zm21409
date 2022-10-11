@@ -1,5 +1,5 @@
 var who65 = 'world';
-function sayhello65()
+function sayhello61()
 {alert('Hello, ' + who65 + '!');
 }
 function taro65() {
