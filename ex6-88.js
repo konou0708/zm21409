@@ -1,1 +1,4 @@
-function imgchange688(){document.getElementById('josai').innerHTML='<img src="./image/josailogo2.jpg">';}
+function gazouhenko1()
+{
+document.getElementById('who688').innerHTML = '<img src="./image/abm00047230.jpg">';
+}
