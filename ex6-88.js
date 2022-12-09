@@ -1,4 +1,3 @@
-function imgchange1()
-{
-document.getElementById('who688').innerHTML = '<img src="1611144883117.jpg">';
+function imgchange688()
+{document.getElementById('josai').innerHTML='<img src="./image/城西大学マスコットキャラクター.png">';
 }
