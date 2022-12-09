@@ -1,4 +1,4 @@
-function gazouhenko1()
+function imgchange1()
 {
 document.getElementById('who688').innerHTML = '<img src="1611144883117.jpg">';
 }
