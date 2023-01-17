@@ -21,6 +21,15 @@
  <script src="ex6-14.js"></script>
  <script src="ex7-1.js"></script>
  <script src="ex7-3.js"></script>
+  <script src="ex7-2.js"></script>
+ <script src="ex7-4.js"></script>
+<script src="ex7-5.js"></script>
+ <script src="ex7-6.js"></script>
+  <script src="ex7-7.js"></script>
+  <script src="ex7-8.js"></script>
+  <script src="ex7-9.js"></script>
+  <script src="ex7-10.js"></script>
+  <script src="ex7-11.js"></script>
  </head>
 
  <body>
@@ -138,19 +147,29 @@
  <h1>練習問題6-14</h1>
 <form>
 <input type="button" value="画像の変更" onclick="imgchange5();setTimeout('imgchange6()',3000)"> </form>
-<img src="./image/城西大学ロゴ.png" id="logo1" alt="Josai Logo" class="imagechange">
+<img src="./image/城西大学マスコットキャラクター.png" id="logo1" alt="Josai Logo" class="imagechange">
   
   <h1>練習問題7.1 テキスト入力の練習</h1>
   <input type="button" value="あいさつ" onclick="sayhello71();">
   <p>誰?<input type="text" id="who71"></p>
 
-  <h1>練習問題7.3 足し算</h1>
+  <h1>練習問題7.2 足し算</h1>
   <p>
     <input type="text" id="input1">+<input type="text" id="input2">
     <input type="button" value="計算" onclick="add();">
     </p>
   
-   
+ <h1>練習問題7.3 ボディマス指数</h1>
+<div>身長<input type="number" id="shincho"> cm
+</div>
+<div>体重<input type="number" id="taijuu">  kg
+</div>
+<p>
+<input type="button" value="計算" onclick="keisan();">
+</p>
+<div>あなたのBMIは<span id="kuuran">○○</span>です
+</div>
+  
   <h1>練習問題7-4なぞなぞ</h1>
 <p>目を閉じていないと見られないものはなーに？</p>
 <p>
@@ -164,8 +183,44 @@
  答（漢字1文字で）:<input type="text" id="answer75">
  <input type="button" value="解答" onclick="nazo75();"></p>
 
+   <h1>練習問題7.6　なぞなぞ</h1>
+   <p>目を閉じていないと見られないものはなーに?</p>
+   <p>
+     答（漢字1文字で):<input type="text" id="answer2">
+     <input type="button" value="解答" onclick="nazo2();">
+   </p>
+ 
+ <h1>練習問題7.7　なぞなぞ</h1>
+   <p>目を閉じていないと見られないものはなーに?</p>
+   <p>
+     答(漢字1文字で):<input type="text" id="answer3">
+     <input type="button" value="解答" onclick="nazo3();">
+   </p>
+ 
+  <h1>練習問題7.8　なぞなぞ</h1>
+   <p>目を閉じていないと見られないものはなーに?</p>
+   <p>
+     答（漢字1文字で):<input type="text" id="answer4">
+     <input type="button" value="解答" onclick="nazo4();">
+   </p>
+  
+  <h1>練習問題7.9  なぞなぞ</h1>
+   <p>目を閉じていないと見られないものはなーに?</p>
+   <p>
+     答（漢字1文字で):<input type="text" id="answer5">
+     <input type="button" value="解答" onclick="nazo5();">
+   </p>
+ 
+  <h1>練習問題7.10　BMI計算</h1>
+    身長<input type="text" id="input5"> cm
+    体重<input type="text" id="input6"> kg
+    <input type="button" value="計算" onclick="add3();">
+  
+  <h1>練習問題7.11 うるう年判別</h1>
+   <p>西暦<input type="text" id="nen4">年
+     <input type="button" value="計算" onclick="add4();">
+   </p>
+  
   
   </body>
   </html>
-
- 
